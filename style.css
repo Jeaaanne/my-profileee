@@ -1,0 +1,100 @@
+body {
+background-color : lightgrey;
+color : #505A5B;
+font-family:Times;
+font-size: 18px;
+line-height: 1.6;
+letter-spacing: 0px;
+font-weight: lighter;
+}
+
+#profile {
+  width : 195px;
+}
+
+h1 {
+  color : #E5625E;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+h2 {
+  color : #3d3d3d;
+  background-color: #b4ccc4;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: dimgrey;
+  font-weight : bold;
+}
+a:hover {
+  color : #E5625E;
+}
+
+/* Custom design with class */
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+@media(max-width:760px){
+  .container {
+    width: 600px;
+  }
+ }
+ @media(max-width:500px){
+  .container {
+    width: 400px;
+  }
+ }
+
+.card-white {
+    background: white;
+    padding: 40px;
+    margin: 35px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 15%) ;
+    border-radius: 5px;
+    text-align: center;
+}
+.img-circle {
+    border-radius: 50%;
+}
+
+.btn-blue {
+  background-color : #77AF9C;
+  color : white;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+.btn-blue:hover {
+  background-color: black;
+  color : white;
+}
+
+.list-inline {
+  list-style:  none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display : inline;
+  padding : 10px;
+}
+
+
+.list-inline i {
+  font-size: 30px
+}
+
+/* Design adjustment */
+#introduction p {
+  margin-bottom: 30px;
+}
+
+
+
+
+
